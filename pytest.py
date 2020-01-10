@@ -2,6 +2,8 @@
 
 print "Hello world"
 
+#VARIABLES
+
 num1 = 1
 num2 = 1.1
 var1 = "Maly mnau"
@@ -12,11 +14,16 @@ var1 = "Maly mnau"
 string1 = "male maciatko papalo buchtu"
 string2 = "maciatko"
 
+
+#CONDITIONS
+
 #if string2 in string1:
 #    print "Success"
 #else:
 #    print "Nope"
 
+
+#LISTS
 
 cuteAnimalsList = ['kittens', 'maciatko', 'puppies', 'ducklings', 'parrots']
 #print cuteAnimalsList[0]
@@ -34,6 +41,7 @@ position = 0
 
 
 
+#FOR LOOP
 
 for x in cuteAnimalsList:
     print "Currently on " + x
@@ -45,3 +53,11 @@ for x in cuteAnimalsList:
 
 
 print "Number of animals containing letter 'a' in list is: %d " %(count) + " and they are: " + str(animals)
+
+
+#WHILE LOOP
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
